@@ -897,28 +897,38 @@
   },
   "footers": [
     {
-      "name": "Headache",
+      "name": "Headache Log",
       "index": 1,
       "isActive": true
     },
     {
-      "name": "Symptoms",
+      "name": "Symptoms & Details",
       "index": 2,
       "isActive": true
     },
     {
-      "name": "Details",
+      "name": "Activity & Triggers",
       "index": 3,
       "isActive": true
     },
     {
-      "name": "Medication 1",
+      "name": "Dosage & Meds",
       "index": 4,
       "isActive": true
     },
     {
-      "name": "Medication 2",
+      "name": "Medication History",
       "index": 5,
+      "isActive": true
+    },
+    {
+      "name": "Prescriptions",
+      "index": 6,
+      "isActive": true
+    },
+    {
+      "name": "Pharmacy & Side Effects",
+      "index": 7,
       "isActive": true
     }
   ],

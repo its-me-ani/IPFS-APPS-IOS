@@ -49,20 +49,23 @@ except Exception as e:
 
 # Format to the modern template layout: { mainSheet, msc, footers, appMapping }
 tablet_footers = [
-    {"name": "Symptoms", "index": 1, "isActive": True},
-    {"name": "Details", "index": 2, "isActive": True},
-    {"name": "Medication 1", "index": 3, "isActive": True},
-    {"name": "Medication 2", "index": 4, "isActive": True},
-    {"name": "Medication 3", "index": 5, "isActive": True}
+    {"name": "Headache Log", "index": 1, "isActive": True},
+    {"name": "Activity & Notes", "index": 2, "isActive": True},
+    {"name": "Medication Schedule", "index": 3, "isActive": True},
+    {"name": "Prescriptions", "index": 4, "isActive": True},
+    {"name": "Pharmacy & Side Effects", "index": 5, "isActive": True}
 ]
 
 mobile_footers = [
-    {"name": "Headache", "index": 1, "isActive": True},
-    {"name": "Symptoms", "index": 2, "isActive": True},
-    {"name": "Details", "index": 3, "isActive": True},
-    {"name": "Medication 1", "index": 4, "isActive": True},
-    {"name": "Medication 2", "index": 5, "isActive": True}
+    {"name": "Headache Log", "index": 1, "isActive": True},
+    {"name": "Symptoms & Details", "index": 2, "isActive": True},
+    {"name": "Activity & Triggers", "index": 3, "isActive": True},
+    {"name": "Dosage & Meds", "index": 4, "isActive": True},
+    {"name": "Medication History", "index": 5, "isActive": True},
+    {"name": "Prescriptions", "index": 6, "isActive": True},
+    {"name": "Pharmacy & Side Effects", "index": 7, "isActive": True}
 ]
+
 
 tablet_template = {
     "mainSheet": "sheet1",

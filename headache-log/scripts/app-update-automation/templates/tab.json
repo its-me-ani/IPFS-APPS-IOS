@@ -943,27 +943,27 @@
   },
   "footers": [
     {
-      "name": "Symptoms",
+      "name": "Headache Log",
       "index": 1,
       "isActive": true
     },
     {
-      "name": "Details",
+      "name": "Activity & Notes",
       "index": 2,
       "isActive": true
     },
     {
-      "name": "Medication 1",
+      "name": "Medication Schedule",
       "index": 3,
       "isActive": true
     },
     {
-      "name": "Medication 2",
+      "name": "Prescriptions",
       "index": 4,
       "isActive": true
     },
     {
-      "name": "Medication 3",
+      "name": "Pharmacy & Side Effects",
       "index": 5,
       "isActive": true
     }
