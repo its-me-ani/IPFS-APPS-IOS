@@ -1,14 +1,14 @@
 {
   "baseUrl": "http://localhost:3000",
-  "saveFileNameA": "Requisition Form A",
-  "saveFileNameB": "Requisition Form B",
+  "saveFileNameA": "Headache Log A",
+  "saveFileNameB": "Headache Log B",
   "onboardingButtonText": "Get Started",
-  "savedFilesPageTitle": "My Saved Forms",
-  "settingsPageTitle": "App Settings",
+  "savedFilesPageTitle": "My Saved Logs",
+  "settingsPageTitle": "Settings",
   "saveFileDialogTitle": "Save File",
-  "editCellMobile": "B2",
-  "editCellTablet": "B2",
-  "editValue": "Clinic ABC",
-  "maxTabsMobile": 5,
+  "editCellMobile": "B5",
+  "editCellTablet": "B5",
+  "editValue": "10/10 Severe",
+  "maxTabsMobile": 7,
   "maxTabsTablet": 5
 }
