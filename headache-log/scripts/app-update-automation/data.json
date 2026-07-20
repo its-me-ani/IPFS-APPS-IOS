@@ -1,0 +1,117 @@
+{
+  "_comment": "App Update Automation — Central Configuration for Headache Log",
+
+  "app": {
+    "name": "Headache Log",
+    "kebabName": "headache-log",
+    "packageName": "com.aspiring.HeadacheLog",
+    "description": "Offline Headache and Migraine Log Tracker. Track headache severity, symptoms, activities, and medication logs in one place.",
+    "type": "headache-log",
+    "version": "3.0.0",
+    "marketingVersion": "3.0",
+    "buildNumber": "1"
+  },
+
+  "theme": {
+    "primaryColor": "#3b82f6",
+    "primaryColorRgb": "59, 130, 246",
+    "primaryColorShade": "#1d4ed8",
+    "primaryColorTint": "#60a5fa",
+    "primaryContrast": "#ffffff",
+    "primaryContrastRgb": "255, 255, 255",
+    "secondaryColor": "#eff6ff",
+    "secondaryColorRgb": "239, 246, 255",
+    "secondaryContrast": "#1e40af",
+    "secondaryContrastRgb": "30, 64, 175",
+    "secondaryShade": "#dbeafe",
+    "secondaryTint": "#ffffff",
+    "backgroundColor": "#f8fafc"
+  },
+
+  "onboarding": {
+    "welcomeTitle": "Welcome to Headache Log",
+    "welcomeSubtitle": "Track headache frequency, symptoms, pain scale, and medication offline.",
+    "features": [
+      "Log headache start time, duration, and pain scale levels easily",
+      "Track associated symptoms, activities, food/water intake, and triggers",
+      "Maintain detailed medication logs and export comprehensive health reports"
+    ],
+    "ctaButtonText": "Get Started"
+  },
+
+  "pages": {
+    "dashboardHeaderTitle": "Headache Log",
+    "filesPageHeaderTitle": "My Saved Logs",
+    "settingsPageAppName": "Headache Log",
+    "settingsPageMarketingVersion": "3.0",
+    "settingsPageBuildNumber": "1",
+    "settingsCurrencyDescription": "Change the display currency for your records and reports.",
+    "settingsResetDescription": "Wipe all local log files, custom templates, and configuration settings completely."
+  },
+
+  "tabs": {
+    "home": "Home",
+    "files": "Files",
+    "settings": "Settings"
+  },
+
+  "templates": {
+    "appType": "headache-log",
+    "hashtags": ["headache", "health", "migraine", "tracker", "log"],
+    "mobile": {
+      "name": "Headache Log (Mobile)",
+      "description": "Headache and medication tracking sheets optimized for mobile layouts.",
+      "mscJsonPath": "scripts/app-update-automation/templates/mob.json"
+    },
+    "tablet": {
+      "name": "Headache Log (Tablet)",
+      "description": "Comprehensive headache and medication tracking sheets optimized for tablets.",
+      "mscJsonPath": "scripts/app-update-automation/templates/tab.json"
+    },
+    "desktop": {
+      "name": "Headache Log (Desktop)",
+      "description": "Comprehensive headache and medication tracking sheets optimized for desktop.",
+      "mscJsonPath": ""
+    },
+    "footerTabNames": {
+      "tab1": "Headache Log",
+      "tab2": "Medication Log"
+    }
+  },
+
+  "pdf": {
+    "footerLabel": "Headache Log",
+    "defaultFilename": "headache_log",
+    "defaultAllSheetsFilename": "all_headache_logs",
+    "shareSubject": "Here is your Headache Log Report",
+    "shareText": "Headache Log PDF report generated successfully",
+    "csvShareText": "Headache Log data exported as CSV",
+    "singleSheetName": "Log Sheet"
+  },
+
+  "menu": {
+    "printWindowTitle": "Print Headache Log",
+    "emailSubject": "Here is your Headache Log Report",
+    "saveToastMessage": "Log saved successfully!",
+    "fallbackFileName": "Headache Log"
+  },
+
+  "ios": {
+    "displayName": "Headache Log",
+    "cameraUsageDescription": "Headache Log needs access to your camera to capture medical records or notes.",
+    "photoLibraryUsageDescription": "Headache Log needs access to your photo library to attach medical images.",
+    "microphoneUsageDescription": "Headache Log needs microphone access when using the camera."
+  },
+
+  "pwa": {
+    "shortName": "Headache Log",
+    "fullName": "Headache Log",
+    "themeColor": "#3b82f6",
+    "backgroundColor": "#3b82f6"
+  },
+
+  "icon": {
+    "sourceIconPath": "WhatsApp Image 2026-07-21 at 1.43.32 AM.jpeg"
+  }
+}
+
